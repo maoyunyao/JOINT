@@ -20,7 +20,7 @@ def parameters():
     params.patch_max_scale_change = None
 
     # Learning parameters
-    params.sample_memory_size = 20  # 32    DAVIS 20 is the best for zhaojian-95
+    params.sample_memory_size = 20
     params.learning_rate = 0.1
     params.init_samples_minimum_weight = 0.25
     params.train_skipping = 1
